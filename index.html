@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gacha Simulator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="picture">
+      <img src="gatcha.png" alt="Gacha Image">
+    </section>
+    <section class="function">
+      <h1>Gacha <span>Simulator</span></h1>
+      <p><span id="trys">Spin 3 times</span> 1hr to replanish</p>
+      <div class="buttons">
+        <button class="a" id="spin" aria-label="Spin the gacha">
+          <img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=94,height=94,fit=cover,f=auto/b347a4526e232d2d6310d4f0be143efb.png" srcset="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=94,height=94,fit=cover,f=auto/b347a4526e232d2d6310d4f0be143efb.png 1x, 
+					https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=188,height=188,fit=cover,f=auto/b347a4526e232d2d6310d4f0be143efb.png 2x" alt="Roll">
+          ROLL
+        </button>
+      </div>
+      <input type="text" id="text" placeholder="Enter code for bonus spins"><button id="submit">submit code</button>
+    </section>
+  </div>
+  <section class="alert">
+    <section class="fixer">
+      <i class="fa fa-close"></i>
+      <h1>Congratulations..!</h1>
+      <h3 id="reward">...</h3>
+      <button>Redeem</button>
+    </section>
+  </section>
+  <section class="inventry">
+    <button onclick="inventryCall();">inventry</button>
+    <div class="things">
+      <h1 id="storage" class="nodisp"></h1>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

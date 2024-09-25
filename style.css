@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+.container{
+  padding: 2rem;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;	
+	background: #051616;	
+	height: 100vh;
+	flex-direction: row-reverse;
+	font-size: 200%;
+	text-align: center;
+	position: relative;
+}
+p{
+	margin: 20px;
+	font-size: 70%;
+}
+
+span{
+	border-bottom: 4px solid #073607f2;
+}
+.a{
+	width: 50%;
+	padding: 5px;
+	align-items: center;
+  background-color: #FFF;
+  border-radius: 16px;
+  box-shadow: rgba(93, 107, 132, 0.18) 0px 1px 3px 0px, rgba(93, 107, 132, 0.15) 0px 6px 6px 0px, rgba(93, 107, 132, 0.09) 0px 13px 8px 0px, rgba(93, 107, 132, 0.03) 0px 23px 9px 0px;
+  color: rgb(0, 156, 255);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-family: "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", "Noto Sans Arabic", Arial, sans-serif;
+  font-size: 100%;
+  text-decoration: none solid rgb(0, 156, 255);
+}
+.a img{
+	border-radius: 16px; 
+	box-sizing: border-box;  
+	display: block;  
+	text-decoration: none solid transparent; 
+	width: 30%;
+	box-sizing: border-box;
+	color: rgb(0, 43, 80);
+	display: block; 
+	font-weight: 700;
+	letter-spacing: 1px; 
+	text-decoration: none solid rgb(0, 43, 80); text-spacing-trim: normal;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	column-gap: 1rem;
+}
+.alert{
+	position: absolute;
+	top: 0px;
+	width: 40%;
+	background: #04282e;
+	height: 20rem;
+  font-size: 125%;
+  text-align: center;
+}
+h3{
+	margin: 20px;
+}
+.fixer button{
+	padding: 1rem;
+	width: 40%;
+	margin: 0px auto;
+	background: #583014e0;
+	outline: none;
+	border-radius: 1rem;
+	border:none;
+	font-size: 100%;
+}
+.fixer{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;	
+}
+.fa-close{
+	color: red;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.inventry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  background: blue;
+  width: 50%;
+  padding: 10%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nodisp{
+  display: none;
+}
+.yesdisp{
+  display: block;
+}
+@media (max-width:800px){
+  html{
+    font-size: 50%;
+  }
+  img{
+    width: 250px;
+  }
+}
